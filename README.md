@@ -4,17 +4,20 @@
 
 Create a new keepass database file: anchore-secrets.kdbx
 Add the following entries with the names:
+```
 ANCHORE_DB_PASSWORD
 ANCHORE_ADMIN_PASSWORD
 ANCHORE_AUTH_SECRET
-
+```
 
 For each entry set the password field to the value you want.
 
 ## Run
 
 Run the script:
+```
 ./keepass2compose.sh
+```
 
 This will prompt you for the keepass database password.
 The default keepass database included here has the password: anchoreadmin
